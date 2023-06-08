@@ -1,0 +1,7 @@
+tag_block:
+    | LT TAG_ID GT (tag_block | empty) LT BAR TAG_ID GT
+    ;
+
+tag_proprerty:
+    | PROP_ID EQ QUOTE STRING QUOTE
+    ;
