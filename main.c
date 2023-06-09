@@ -5,15 +5,15 @@
 
 typedef enum TokenType
 {
-    GT,
     LT,
+    GT,
     BAR,
-    EQ,
-    QUOTE,
     TAG_ID,
     PROP_ID,
     STRING,
     PROP_VAL,
+    EQ,
+    QUOTE,
     TEOF
 } TokenType;
 
